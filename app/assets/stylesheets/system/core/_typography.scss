@@ -16,7 +16,6 @@ body {
 }
 h1 {
   font-weight: 900;
-  margin-bottom: system-spacing(sm);
   color: system-color(gray,900);
 }
 h2,h3,h4,h5,h6,strong {
@@ -29,4 +28,7 @@ a {
   &:hover {
     color: system-color(primary, 600);
   }
+}
+h1,h2,h3,h4,h5,h6,p {
+  margin-bottom: 0;
 }
